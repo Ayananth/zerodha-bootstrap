@@ -1,0 +1,71 @@
+* {
+    font-family: Inter, serif;
+    margin: 0;
+    color: #666
+}
+
+h1,h2, h3 {
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+}
+
+.section1 p {
+    font-weight: 400;
+}
+
+.section1 button {
+    background-color: #387ed1;
+}
+
+.section {
+    margin-top: 10rem;
+}
+
+
+/* logo parent and width is set to 100% on the img tag */
+.navbar-brand {
+    max-width: 140px;
+    height: auto;
+}
+
+.menu {
+    width: 20px;
+    height: auto;
+}
+
+.footer {
+    background-color: rgb(251, 251, 251);
+    border-top-color: rgb(238, 238, 238);
+    border-top-style: solid;
+}
+
+.footer-para p {
+    font-size: 0.6rem; 
+    font-weight: 400; 
+    color: rgb(155, 155, 155);
+    line-height: 1rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    #hide-icon {
+        visibility: hidden;
+    }
+
+    .navbar-nav{
+
+        display: grid;
+        grid-template-columns: 100px 200px; /* 3 columns */
+        gap: 1em; /* Space between grid items */
+    }
+    
+
+
+
+}
+
+
+
+
+
+
